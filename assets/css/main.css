@@ -2590,7 +2590,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -3053,11 +3053,68 @@
 						border: 0;
 						color: inherit;
 					}
-
+					#menu > .inner > ul > li #label1 {
+						display: block;
+						padding: 1em 0;
+						line-height: 1.5;
+						border: 0;
+						color: inherit;
+					}
+					#menu > .inner > ul > li #label2 {
+						display: block;
+						padding: 1em 0;
+						line-height: 1.5;
+						border: 0;
+						color: inherit;
+					}
 					#menu > .inner > ul > li:first-child {
 						border-top: 0;
 						margin-top: -1em;
 					}
+					#menu > .inner > ul > li  #area1 {
+						height: 100%;
+						display: none;
+					}
+					#menu > .inner > ul > li  #area1 > ul {
+						list-style: none;
+						margin: 0 0 1em 0;
+					}
+						#menu > .inner > ul > li  #area1 > ul > li {
+							padding: 0;
+						}
+							#menu > .inner > ul > li  #area1 > ul > li a {
+								display: block;
+								padding: 1em 0;
+								line-height: 1.5;
+								border: 0;
+								color: inherit;
+							}
+							#menu > .inner > ul > li > #area1 > ul > li:first-child {
+								border-top: 0;
+								margin-top: -1em;
+							}
+					#menu > .inner > ul > li  #area2 {
+						height: 100%;
+						display: none;
+					}
+					#menu > .inner > ul > li  #area2 > ul {
+						list-style: none;
+						margin: 0 0 1em 0;
+					}
+						#menu > .inner > ul > li  #area2 > ul > li {
+							padding: 0;
+						}
+							#menu > .inner > ul > li  #area2 > ul > li a {
+								display: block;
+								padding: 1em 0;
+								line-height: 1.5;
+								border: 0;
+								color: inherit;
+							}
+							#menu > .inner > ul > li > #area2 > ul > li:first-child {
+								border-top: 0;
+								margin-top: -1em;
+							}
 
 		#menu > .close {
 			-moz-transition: opacity 0.45s ease, -moz-transform 0.45s ease;
@@ -3356,7 +3413,7 @@
 		}
 #slideshow {
     position: relative;
-    width: 1018px;
+    width: auto;
     height: 319px;
 }
 #slideshow > div {
