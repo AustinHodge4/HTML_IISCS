@@ -29,17 +29,38 @@
                </nav>
             </div>
          </header>
-         <!-- Menu -->
-         <nav id="menu">
+          <!-- Menu -->
+          <nav id="menu">
             <h2>Menu</h2>
             <ul>
                <li><a href="index.html">Home</a></li>
                <li><a href="generic.html">TEAM </a></li>
-               <li><a href="/projects.html">PROJECTS </a></li>
-               <li><a href="gene">NEWS & EVENTS</a></li>
-               <li><a href="elements.html">ONEUP</a></li>
+               <li><a href="generic.html">PROJECTS </a></li>
+               <li><a href="https://github.com/AustinHodge4/HTML_IISCS/blob/master/news%26event.html">NEWS & EVENTS</a></li>
+               <li>
+                  <div id="label1">ONEUP</div>
+                  <div id="area1">
+                     <ul>
+                        <li><a href="#">PROJECT HOME</a></li>
+                        <li><a href="#">PROJECT SUMMARY</a></li>
+                        <li><a href="#">PROJECT TEAM</a></li>
+                        <li><a href="#">PUBLICATIONS</a></li>
+                     </ul>
+                  </div>
+               </li>
                <li><a href="elements.html">CSOOER PORTAL</a></li>
-               <li><a href="elements.html">TM4L</a></li>
+               <li>
+                  <div id="label2">TM4L</div>
+                  <div id="area2">
+                     <ul>
+                        <li><a href="#">TM4L HOME</a></li>
+                        <li><a href="#">RESOUCRES</a></li>
+                        <li><a href="#">DOWNLOADS</a></li>
+                        <li><a href="#">RELATED PUBLICATIONS</a></li>
+                        <li><a href="#">TEAM</a></li>
+                     </ul>
+                  </div>
+               </li>
                <li><a href="elements.html">PUBLICATIONS</a></li>
                <li><a href="elements.html">CONTACT</a></li>
             </ul>
@@ -68,11 +89,27 @@
          </div>
       </div>
    <!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/skel.min.js"></script>
+   <script src="assets/js/util.js"></script>
+   <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+   <script src="assets/js/main.js"></script>
+   <script>
+      $("#slideshow > div:gt(0)").hide();
+      
+      setInterval(function(){
+          $("#slideshow > div:first").fadeOut(1000).next().fadeIn(1000).end().appendTo("#slideshow");
+      }, 3000);
+   </script>
+   <script>
+      $(document).ready(function() {
+         $('#label1').click(function() {
+           $('#area1').toggle();
+         });
+         $('#label2').click(function() {
+           $('#area2').toggle();
+         });
+       });
+   </script>
     </body>
 </html>
