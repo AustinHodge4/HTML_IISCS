@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html>
    <head>
-      <title>Intelligent Information Systems Research Group | IIS Group</title>
+      <title>IIS Group | Team </title>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -35,21 +35,31 @@
             <h2>Menu</h2>
             <ul>
                <li><a href="index.html">Home</a></li>
-               <li><a href="generic.html">TEAM </a></li>
+               <li><a href="team.html">TEAM </a></li>
                <li><a href="/projects.html">PROJECTS </a></li>
-               <li><a href="gene">NEWS & EVENTS</a></li>
-               <li><a href="elements.html">ONEUP</a></li>
-               <li><a href="elements.html">CSOOER PORTAL</a></li>
-               <li><a href="elements.html">TM4L</a></li>
-               <li><a href="elements.html">PUBLICATIONS</a></li>
-               <li><a href="elements.html">CONTACT</a></li>
+               <li><a href="news&event.html">NEWS & EVENTS</a></li>
+                <li>
+                  <div id="label1">ONEUP</div>
+                  <div id="area1">
+                     <ul>
+                        <li><a href="oneup.html">HOME</a></li>
+                        <li><a href="projectsummary.html">PROJECT SUMMARY</a></li>
+                        <li><a href="team.html">PROJECT TEAM</a></li>
+                        <li><a href="publication.html">PUBLICATIONS</a></li>
+                     </ul>
+                  </div>
+               </li>
+               <li><a href="csoer_portal.html">CSOOER PORTAL</a></li>
+               <li><a href="TM4L.html">TM4L</a></li>
+               <li><a href="publication.html">PUBLICATIONS</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
             </ul>
          </nav>
          <!-- Main -->
          <div id="main">
             <div class="inner">
                <h1>Intelligent Information Systems Research Group | IIS Group<br />
-                  <a href="http://html5up.net">HTML5 UP</a>.
+                  <!--a href="http://html5up.net">HTML5 UP</a.-->
                </h1>
                <h2>Projects</h2>
                <ul>
@@ -829,5 +839,22 @@
   
 </div>
 <!--end framework container-->
+      <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+      
+       <script>
+         $(document).ready(function() {
+            $('#label1').click(function() {
+              $('#area1').toggle();
+            });
+            $('#label2').click(function() {
+              $('#area2').toggle();
+            });
+          });
+      </script>
 	  	</body><!--end body-->
 </html>
