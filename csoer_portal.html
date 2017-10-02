@@ -29,16 +29,24 @@
                 <a href="index.html" class="logo">
                     <span class="symbol"><img src="images/wssu_logo.jpg" alt="" /></span><span class="title"><a href="">IISCS</a> &raquo;</span><span class="title">Increasing Student Motivation and Engagement...</span>
                 </a>
-
-                <!-- Nav -->
+                
+               <!-- Nav -->
                 <nav>
                     <ul>
                         <li><a href="#menu">Menu</a>
                         </li>
                     </ul>
                 </nav>
-                <!--div class="NSF-image" style= "float: right">&nbsp;&nbsp;&nbsp;<a href="http://www.nsf.gov/"><img alt="http://upload.wikimedia.org/wikipedia/commons/0/03/NSF_Logo.jpg" src="http://upload.wikimedia.org/wikipedia/commons/0/03/NSF_Logo.jpg" style="height:110px; width:110px; float: right" /></a></div-->
-                 
+                 <div>
+                  <div class="content">
+    <div align="right">
+	<a href="http://www.computingportal.org"><img alt="Ensemble Computing Portal" src="http://iiscs.wssu.edu/drupal/sites/all/files/waffles_logo_800.png" style="width: 90px; height: 86px;" /></a>
+</div>
+  </div>
+                 <div class="content">
+    <div align="right"><a href="http://nsf.gov//"><img alt="NSF" src="http://iiscs.wssu.edu/drupal/sites/all/files/NSF1.png" style="width: 60px; height: 60px; float:right" /></a> 	     <a href="http://nsdl.org/"><img alt="NSDL" src="http://iiscs.wssu.edu/drupal/sites/all/files/nsdl.gif" style="width: 93px; height: 40px;" /></a></div>
+  </div>
+        </div>         
             </div>
         </header>
 
@@ -54,32 +62,42 @@
                 </li>
                 <li><a href="news&event.html">NEWS & EVENTS</a>
                 </li>
-                 <li>
+                <li>
                   <div id="label1">ONEUP</div>
                   <div id="area1">
                      <ul>
-                        <li><a href="oneup.html">HOME</a></li>
-                        <li><a href="projectsummary.html">PROJECT SUMMARY</a></li>
-                        <li><a href="projectTeam.html">PROJECT TEAM</a></li>
-                        <li><a href="publication.html">PUBLICATIONS</a></li>
+                        <li><a href="oneup.html"> HOME</a></li>
+                        <li><a href="projectsummary.html">Project Summary</a></li>
+                        <li><a href="projectTeam.html">Project Team</a></li>
+                        <li><a href="publication.html">Publications</a></li>
                      </ul>
                   </div>
-                </li>
-                <li>
+               </li>
+               <li>
                   <div id="label2">CSOOER PORTAL</div>
                   <div id="area2">
                      <ul>
                         <li><a href="csoer_portal.html">Home</a></li>
-                        <li><a href="#http://iiscs.wssu.edu/drupal/csoer_collections">COLLECTIONS</a></li>
-                        <li><a href="http://iiscs.wssu.edu/drupal/cs-categories">CS CATEGORIES</a></li>
+                        <li><a href="#http://iiscs.wssu.edu/drupal/csoer_collections">Collections</a></li>
+                        <li><a href="http://iiscs.wssu.edu/drupal/cs-categories">CS Categories</a></li>
                         <li><a href="http://iiscs.wssu.edu/drupal/acm_cs_curriculum">ACM/IEEE Curriculum</a></li>
                         <li><a href="#"></a></li>
                          <li><a href="http://iiscs.wssu.edu/drupal/csoersearch">Search</a></li>
                      </ul>
                   </div>
                </li>
-                <li><a href="TM4L.html">TM4L</a>
-                </li>
+               <li>
+                  <div id="label3">TM4L</div>
+                  <div id="area3">
+                     <ul>
+                        <li><a href="TM4L.html">TM4L HOME</a></li>
+                        <li><a href="tm4l_Resources.html">Resources</a></li>
+                        <li><a href="tm4l_Dwnloads.html">Downloads</a></li>
+                        <li><a href="Related_Publications.html">Related Publications</a></li>
+                        <li><a href="tm4l_Team.html">Team</a></li>
+                     </ul>
+                  </div>
+               </li>
                 <li><a href="publications.html">PUBLICATIONS</a>
                 </li>
                 <li><a href="contact.html">CONTACT</a>
@@ -143,15 +161,9 @@
             <!-- start region -->
 <div class="region region region-sidebar-second">
   <div id="block-block-18" class="block block-block">
-        <div class="content">
-    <div align="center">
-	<a href="http://www.computingportal.org"><img alt="Ensemble Computing Portal" src="http://iiscs.wssu.edu/drupal/sites/all/files/waffles_logo_800.png" style="width: 90px; height: 86px;" /></a>
-</div>
-  </div>
+       
 </div> <!-- /block --><div id="block-block-19" class="block block-block">
-        <div class="content">
-    <div align="center"><a href="http://nsf.gov//"><img alt="NSF" src="http://iiscs.wssu.edu/drupal/sites/all/files/NSF1.png" style="width: 60px; height: 60px;" /></a> 	     <a href="http://nsdl.org/"><img alt="NSDL" src="http://iiscs.wssu.edu/drupal/sites/all/files/nsdl.gif" style="width: 93px; height: 40px;" /></a></div>
-  </div>
+       
 </div> <!-- /block --></div>
 <!-- end region -->          </div>
           <!--end second sidebar-->
@@ -192,7 +204,7 @@
 
         <!-- Footer -->
         <footer id="footer">
-            <div class="inner">
+            <!--div class="inner">
                 <section>
                     <h2>Get in touch</h2>
                     <form method="post" action="#">
@@ -238,7 +250,7 @@
                     <li>Design: <a href="http://html5up.net">HTML5 UP</a>
                     </li>
                 </ul>
-            </div>
+            </div-->
         </footer>
 
     </div>
@@ -257,6 +269,9 @@
             });
             $('#label2').click(function() {
               $('#area2').toggle();
+            });
+             $('#label3').click(function() {
+              $('#area3').toggle();
             });
           });
       </script>
