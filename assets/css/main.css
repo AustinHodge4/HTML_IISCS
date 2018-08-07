@@ -3060,12 +3060,20 @@
 						border: 0;
 						color: inherit;
 					}
+					#menu > .inner > ul > li #label1:hover {
+						border-bottom-color: transparent;
+						color: #f2849e !important;
+					}
 					#menu > .inner > ul > li #label2 {
 						display: block;
 						padding: 1em 0;
 						line-height: 1.5;
 						border: 0;
 						color: inherit;
+					}
+					#menu > .inner > ul > li #label2:hover {
+						border-bottom-color: transparent;
+						color: #f2849e !important;
 					}
 					#menu > .inner > ul > li:first-child {
 						border-top: 0;
