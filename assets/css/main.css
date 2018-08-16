@@ -3447,7 +3447,7 @@
 #slideshow {
     position: relative;
     width: auto;
-    height: 319px;
+    height: 500px;
 }
 #slideshow > div {
     position: absolute;
@@ -3455,7 +3455,7 @@
 }
 img.slide {
     width: 100%;
-    height: 319px;
+    height: 500px;
     display: block;
     
 }
