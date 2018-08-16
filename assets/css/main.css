@@ -2864,11 +2864,12 @@
 		width: 150px;
 		height: 200px;
 	}
-	.card > .card-content {
-		width: 100%;
+	.card-content {
+		width: 350px;
 		height: 200px;
 		position: relative;
 		padding: 2px 16px;
+		overflow: scroll;
 	}
 	
 /* Header */
